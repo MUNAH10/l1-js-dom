@@ -1,6 +1,12 @@
 // TODO: Listen for page loading (window)
+window.onload=()=>{
+console.log("window: loading");
+}
 
 // TODO: Listen for page loading (document)
+document.addEventListener('DOMContentLoaded', (e)=>{
+console.log('event',e)
+})
 
 // TODO: Access the h1 in HTML page
 
